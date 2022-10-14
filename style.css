@@ -1,0 +1,65 @@
+/* table,
+td {
+  border: 1px solid black;
+} */
+
+body {
+  max-width: 100%;
+  margin: 0;
+}
+
+body div {
+  max-width: 600px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: rgb(151, 122, 179);
+}
+
+.border-dotted {
+  border-style: dotted;
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: black;
+  /* border: 3px dotted black; */
+}
+p {
+  margin: 30px 0;
+}
+
+.font-size-weight {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+
+  /*If you don't want to that element's space and location use visibility*/
+  /* visibility: hidden; */
+}
+
+table {
+  border-spacing: 10px;
+}
+
+td {
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
+}
+tr {
+  outline: 2px dotted firebrick;
+  border-radius: 10px;
+}
+
+.test {
+  background-color: chocolate;
+}
